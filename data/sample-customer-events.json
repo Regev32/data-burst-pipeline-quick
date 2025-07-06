@@ -1,0 +1,17 @@
+[
+  {"timestamp": "2024-01-15T10:30:00Z", "customer_id": "cust_001", "event_type": "purchase", "product_category": "Electronics", "product_id": "prod_laptop_001", "amount": 999.99, "quantity": 1, "location": "New York"},
+  {"timestamp": "2024-01-15T10:31:15Z", "customer_id": "cust_002", "event_type": "purchase", "product_category": "Clothing", "product_id": "prod_shirt_045", "amount": 29.99, "quantity": 2, "location": "California"},
+  {"timestamp": "2024-01-15T10:32:30Z", "customer_id": "cust_003", "event_type": "view", "product_category": "Books", "product_id": "prod_book_123", "amount": 0, "quantity": 0, "location": "Texas"},
+  {"timestamp": "2024-01-15T10:33:45Z", "customer_id": "cust_004", "event_type": "purchase", "product_category": "Home & Garden", "product_id": "prod_chair_089", "amount": 149.50, "quantity": 1, "location": "Florida"},
+  {"timestamp": "2024-01-15T10:35:00Z", "customer_id": "cust_005", "event_type": "add_to_cart", "product_category": "Sports", "product_id": "prod_shoes_234", "amount": 79.99, "quantity": 1, "location": "Illinois"},
+  {"timestamp": "2024-01-15T10:36:15Z", "customer_id": "cust_001", "event_type": "purchase", "product_category": "Electronics", "product_id": "prod_phone_567", "amount": 699.99, "quantity": 1, "location": "New York"},
+  {"timestamp": "2024-01-15T10:37:30Z", "customer_id": "cust_006", "event_type": "purchase", "product_category": "Books", "product_id": "prod_book_456", "amount": 24.99, "quantity": 3, "location": "Washington"},
+  {"timestamp": "2024-01-15T10:38:45Z", "customer_id": "cust_007", "event_type": "view", "product_category": "Clothing", "product_id": "prod_dress_789", "amount": 0, "quantity": 0, "location": "Oregon"},
+  {"timestamp": "2024-01-15T10:40:00Z", "customer_id": "cust_008", "event_type": "purchase", "product_category": "Electronics", "product_id": "prod_tablet_012", "amount": 399.99, "quantity": 1, "location": "Nevada"},
+  {"timestamp": "2024-01-15T10:41:15Z", "customer_id": "cust_009", "event_type": "purchase", "product_category": "Sports", "product_id": "prod_ball_345", "amount": 15.99, "quantity": 2, "location": "Colorado"},
+  {"timestamp": "2024-01-15T10:42:30Z", "customer_id": "cust_010", "event_type": "add_to_cart", "product_category": "Home & Garden", "product_id": "prod_lamp_678", "amount": 89.99, "quantity": 1, "location": "Arizona"},
+  {"timestamp": "2024-01-15T10:43:45Z", "customer_id": "cust_002", "event_type": "purchase", "product_category": "Clothing", "product_id": "prod_pants_901", "amount": 49.99, "quantity": 1, "location": "California"},
+  {"timestamp": "2024-01-15T10:45:00Z", "customer_id": "cust_011", "event_type": "view", "product_category": "Electronics", "product_id": "prod_camera_234", "amount": 0, "quantity": 0, "location": "Utah"},
+  {"timestamp": "2024-01-15T10:46:15Z", "customer_id": "cust_012", "event_type": "purchase", "product_category": "Books", "product_id": "prod_book_567", "amount": 34.99, "quantity": 1, "location": "New Mexico"},
+  {"timestamp": "2024-01-15T10:47:30Z", "customer_id": "cust_013", "event_type": "purchase", "product_category": "Sports", "product_id": "prod_weights_890", "amount": 199.99, "quantity": 1, "location": "Montana"}
+]

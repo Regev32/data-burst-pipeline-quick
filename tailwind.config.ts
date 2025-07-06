@@ -24,6 +24,22 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				pipeline: {
+					success: 'hsl(var(--pipeline-success))',
+					warning: 'hsl(var(--pipeline-warning))',
+					error: 'hsl(var(--pipeline-error))',
+					info: 'hsl(var(--pipeline-info))',
+				},
+				'data-flow': {
+					ingestion: 'hsl(var(--data-ingestion))',
+					processing: 'hsl(var(--data-processing))',
+					storage: 'hsl(var(--data-storage))',
+				},
+				dashboard: {
+					bg: 'hsl(var(--dashboard-bg))',
+					card: 'hsl(var(--dashboard-card))',
+					border: 'hsl(var(--dashboard-border))',
+				},
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'

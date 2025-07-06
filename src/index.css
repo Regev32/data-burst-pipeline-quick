@@ -2,9 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Data Pipeline Dashboard Design System */
+
+:root {
+  /* Pipeline Status Colors */
+  --pipeline-success: 142 76% 36%;
+  --pipeline-warning: 38 92% 50%;
+  --pipeline-error: 0 84% 60%;
+  --pipeline-info: 217 91% 60%;
+  
+  /* Data Flow Colors */
+  --data-ingestion: 262 83% 58%;
+  --data-processing: 217 91% 60%;
+  --data-storage: 142 76% 36%;
+  
+  /* Gradients */
+  --gradient-pipeline: linear-gradient(135deg, hsl(var(--pipeline-info)), hsl(var(--data-processing)));
+  --gradient-data-flow: linear-gradient(90deg, hsl(var(--data-ingestion)), hsl(var(--data-processing)), hsl(var(--data-storage)));
+  
+  /* Dashboard specific */
+  --dashboard-bg: 220 14% 96%;
+  --dashboard-card: 0 0% 100%;
+  --dashboard-border: 214 13% 91%;
+  
+  /* Animation */
+  --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
 
 @layer base {
   :root {
